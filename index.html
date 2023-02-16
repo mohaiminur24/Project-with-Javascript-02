@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Javascrpt</title>
+</head>
+<body class="scroll-smooth">
+<section class="w-4/5 mx-auto my-10 font-sans">
+
+
+    <div class="grid grid-cols-2 ">
+        <div class="w-full">
+            <img class="h-full" src="https://images.pexels.com/photos/53621/calculator-calculation-insurance-finance-53621.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="">
+        </div>
+        <div class="bg-gray-200 p-10 w-4/5 ml-auto">
+            <h1 class="text-center text-2xl">Income</h1>
+            <div class="mx-auto w-fit mt-5">
+                <table class="table-fixed w-fit text-center mr-28">
+                    <tbody>
+                        <tr>
+                            <td><label for="">Income: </label></td>
+                            <td><input id="income" class="rounded-sm bg-gray-300 px-2 outline-none font-sans" type="text"></td>
+                        </tr>
+                    </tbody>
+                </table>
+
+                <h1 class="font-semibold text-center my-3">Expenses</h1>
+
+                <table class="table-fixed w-fit text-center mr-28">
+                    <tbody>
+                        <tr>
+                            <td><label for="">Food: </label></td>
+                            <td><input id="food" class="rounded-sm bg-gray-300 px-2 outline-none font-sans" type="text"></td>
+                        </tr>
+                        <tr>
+                            <td><label for="">Rent: </label></td>
+                            <td><input id="rent" class="rounded-sm bg-gray-300 px-2 outline-none font-sans" type="text"></td>
+                        </tr>
+                        <tr>
+                            <td><label for="">Clothes: </label></td>
+                            <td><input id="clothes" class="rounded-sm bg-gray-300 px-2 outline-none font-sans" type="text"></td>
+                        </tr>
+                    </tbody>
+                </table>
+
+                <button  id="expenses" class=" px-8 w-fit mx-auto block my-3 text-center rounded-md py-2 bg-blue-700 bg-opacity-80 text-white font-semibold font-sans">Calculate</button>
+                <h2 class="mx-auto text-center">Total Expenses: <span id="totalexpenses" class="font-sans">5500</span></h2>
+                <h2 class="mx-auto text-center">Balance: <span id="afterBalanceExpenses" class="font-sans">4500</span></h2>
+
+                <div class="mx-auto text-center">
+                    <label for="">Save: </label><input id="saving" class="w-20 py-2 rounded-md text-center bg-gray-300 px-2 outline-none font-sans" type="text"><span class="mx-3">%</span><button class="px-8 w-fit mx-auto my-3 text-center rounded-md py-2 opacity-50 bg-blue-700 bg-opacity-80 text-white font-semibold font-sans" id="Save" disabled>Save</button>
+                </div>
+
+
+                <h2 class="mx-auto text-center">Saving Amount: <span id="savingfield" class="font-sans">5500</span></h2>
+                <h2 class="mx-auto text-center">Remaining Balance: <span id="remaning" class="font-sans">4500</span></h2>
+
+                
+
+
+
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+    
+
+
+
+
+
+
+
+
+</section> 
+    <script src="javascript.js"></script>    
+</body>
+</html>
